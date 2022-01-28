@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2022 by THEXTREMESPECTR (http://jsbin.com/qunoloh/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <div>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+    <section class= "mysection">
+  <h3>THEXTREMESPECTR on github</h3>
+      <p>A random engine for deciding what to do</p>
+    </section>
+<style id="jsbin-css">
+body{
+  background-color : #121212;
+}
+p{
+  color: #f0f0f0;
+    text-align: center;
+      font-family: verdana ;
+  position : relative;
+  top: -18px
+}
+.mysection {
+   background-color: #320064;
+   width: 110%;
+   height: 70px;
+  position: relative;
+  top: -18px;
+   left: -15px;
+Border: solid #bebebe;
+  
+}
+h3{
+ font-family: verdana;
+  text-align: center;
+  color: #f0f0f0;
+}
+button{
+    height:45px; 
+    width:150px; 
+    margin: 110px -70px; 
+  position: relative;
+    top:-40px; 
+    left:50%;
+  background-color: #444444;
+  color: #f0f0f0;
+  font-family : verdana;
+    font-size: 1em;
+  border: #320064 solid;
+  border-radius: 8px;
+}
+</style>
+</head>
+  </div>
+<body>
+<button onclick="f1()">What should i play</button>
+<script id="jsbin-javascript">
+
+var play = ["Valorant","Minecraft","Legend of Zelda"]
+function f1(){
+var rnd = Math.floor(Math.random()*play.length);
+//document.getElementById("messages001")//.innerHTML = play[rnd]
+  alert(play[rnd]);
+}
+
+</script>
+</body>
+</html>
